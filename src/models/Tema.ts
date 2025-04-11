@@ -1,8 +1,7 @@
-import Postagem from "./Postagem";
-
+import Postagem from "./Postagem"
 
 export default interface Tema {
-    id: number;
-    descricao: string;
-    postagem?: Postagem[] | null;
+  id?: number | null
+  descricao: string
+  postagem?: Postagem[] | null
 }
