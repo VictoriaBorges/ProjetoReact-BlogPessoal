@@ -2,9 +2,9 @@ import { useState, useContext, useEffect } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import { AuthContext } from "../../../contexts/AuthContext"
 import Postagem from "../../../models/Postagem"
-
-import { RotatingLines } from "react-loader-spinner"
 import { buscar, deletar } from "../../../services/Services"
+import { RotatingLines } from "react-loader-spinner"
+
 
 function DeletarPostagem() {
 
