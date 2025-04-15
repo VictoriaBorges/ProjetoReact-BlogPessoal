@@ -15,7 +15,7 @@ function CardPostagem({ postagem }: CardPostagensProps) {
                     <img
                         src={postagem.usuario?.foto}
                         className='h-12 rounded-full'
-                        alt={postagem.usuario?.nome} />
+                        alt={postagem.usuario?.nome || "https://images-ext-1.discordapp.net/external/TpvonxS_6I3AX16fuW1Bw1Y8d-q6C2TRVOBlNqndmIg/https/t4.ftcdn.net/jpg/02/17/74/47/360_F_217744742_5viaZjqSNEFyjIXQHqXg22qOIFN0LUQG.jpg?format=webp"} />
                     <h3 className='text-lg font-bold text-center uppercase'>
                         {postagem.usuario?.nome}
                     </h3>
